@@ -82,6 +82,8 @@ In your command line the path should look like this:
 You can do this by installing them seperately with commands like:
 ```pip isntall pandas```
 
-Or you can do this by installing all of them from a requirements.txt
+Or you can do this by installing all of them from a requirements.txt.
+You can try this out by downloading the requirements.txt example from this github.
 
 ```pip install -r requirements.txt```
+
