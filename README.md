@@ -48,13 +48,13 @@ Open **Command Prompt** and run:
 
 ```bash
 python --version
-
+```
 This should give you something like this:
 Python 3.x.x
 
 ## Step 3: Verify pip Installation
 - pip is Python’s package manager. It is installed automatically with Python.
-- pip --version
+```pip --version```
 
 It should look something like this:
 - pip x.x.x from C:\Python\Lib\site-packages\pip (python 3.x)
@@ -62,26 +62,26 @@ It should look something like this:
 ## Step 4: Create a Project Directory
 Navigate to where you want your project and create a folder:
 
-cd my_project
+```cd my_project```
 
 In your command line you should be in your project like this:
 C:\path\to\my_project>
 
 ## Step 5: Create a Virtual Environment
-python -m venv venv
+```python -m venv venv```
 
 A folder called venv should be added to the project folder
 
 ## Step 6: Activate the Virtual Environment
-venv\Scripts\activate
+```venv\Scripts\activate```
 
 In your command line the path should look like this:
 (venv) C:\path\to\my_project>
 
 ## Step 7: Install the needed libraries
 You can do this by installing them seperately with commands like:
-pip isntall pandas
+```pip isntall pandas```
 
 Or you can do this by installing all of them from a requirements.txt
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
