@@ -84,7 +84,7 @@ In your command line the path should look like this:
 ## Step 7: Install the needed libraries
 You can do this by installing them seperately with commands like:
 
-```pip isntall pandas```
+```pip install pandas```
 
 Or you can do this by installing all of them from a requirements.txt.
 You can try this out by downloading the requirements.txt example from this github.
@@ -101,3 +101,4 @@ You can easily add all installed libraries to a requirements.txt with the follow
 If you want to exit the virtual enviroment you can easliy do this by typing:
 
 ```deactivate``` in the command line
+
