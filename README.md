@@ -54,6 +54,7 @@ Python 3.x.x
 
 ## Step 3: Verify pip Installation
 - pip is Python’s package manager. It is installed automatically with Python.
+- 
 ```pip --version```
 
 It should look something like this:
@@ -68,11 +69,13 @@ In your command line you should be in your project like this:
 C:\path\to\my_project>
 
 ## Step 5: Create a Virtual Environment
+
 ```python -m venv venv```
 
 A folder called venv should be added to the project folder
 
 ## Step 6: Activate the Virtual Environment
+
 ```venv\Scripts\activate```
 
 In your command line the path should look like this:
@@ -80,6 +83,7 @@ In your command line the path should look like this:
 
 ## Step 7: Install the needed libraries
 You can do this by installing them seperately with commands like:
+
 ```pip isntall pandas```
 
 Or you can do this by installing all of them from a requirements.txt.
@@ -87,3 +91,13 @@ You can try this out by downloading the requirements.txt example from this githu
 
 ```pip install -r requirements.txt```
 
+## Step 8: Add all used libraries in a project to a requirements.txt
+You can easily add all installed libraries to a requirements.txt with the following command:
+
+```pip freeze > requirements.txt```
+
+
+## Step 9: Deactivating you virtual enviroment
+If you want to exit the virtual enviroment you can easliy do this by typing:
+
+```deactivate``` in the command line
