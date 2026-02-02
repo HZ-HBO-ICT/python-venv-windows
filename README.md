@@ -35,7 +35,7 @@ Without virtual environments, all projects share the same packages, which can le
 
 1. Download Python from:  
    https://www.python.org/downloads/windows/
-
+   SELECT -> Download Windows installer (64-bit)
 2. Run the installer.
 3. **Check the box** ✅ **Add Python to PATH**
 4. Click **Install Now** and complete the installation.
@@ -101,4 +101,5 @@ You can easily add all installed libraries to a requirements.txt with the follow
 If you want to exit the virtual enviroment you can easliy do this by typing:
 
 ```deactivate``` in the command line
+
 
